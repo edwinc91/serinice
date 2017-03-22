@@ -1,3 +1,7 @@
+* {
+  font-family: 'Baloo Bhaina', cursive;
+}
+
 body {
   padding: 3em;
   padding-top: 20em;
@@ -258,16 +262,6 @@ a.circle {
   padding: 1em 2em 2em;
 }
 
-/*.box1,
-.box3 {
-  float: left;
-}
-
-.box2,
-.box4 {
-  float: right;
-}*/
-
 .box1 {
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
@@ -363,7 +357,7 @@ li > div {
 
 .works-list > li > a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .works-list > li >
@@ -393,18 +387,12 @@ a:hover {
   float: none !important;
 }
 
-/*.bring-footer-up-1,
-.bring-footer-up-2 {
-  height: 50em;
-}
-
-.bring-footer-up-3,
-.bring-footer-up-4 {
-  height: 60em;
-}*/
-
 .cover-letter {
   color: black !important;
+}
+
+.cover-letter > p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .footer {
@@ -462,20 +450,9 @@ a:hover {
 
 @media (min-width: 768px) {
 
-  /*.main {
-    column-count: 1;
-  }
-
-  .box1, .box2,
-  .box3, .box4 {
-    float: none;
-  }*/
-
   .main > li {
     min-height: 350px;
     max-height: 350px;
-    /*width: 80%;*/
-    /*margin: 5% 10%;*/
   }
 
   .main {
