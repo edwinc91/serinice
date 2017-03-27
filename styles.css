@@ -136,7 +136,7 @@ a:hover {
   margin-bottom: -4.5em;*/
   /*height: 20em;*/
   margin-bottom: -4em;
-  width: calc(100% - 6em);
+  width: calc(100% - 6.19em);
 }
 
 .fix-scroll {
@@ -653,6 +653,18 @@ a:hover {
 
 @media (min-width: 1152px) {
 
+  body {
+    padding-top: 23em;
+  }
+
+  .header {
+    height: 23em;
+  }
+
+  .headerText {
+    padding: 7% 0;
+  }
+
   .headerText > h2 {
     margin-top: 28px;
   }
@@ -696,6 +708,19 @@ a:hover {
 
 @media (min-width: 1280px) {
 
+  body {
+    /*width: 100%;*/
+    padding-top: 25em;
+  }
+
+  .header {
+    height: 25em;
+  }
+
+  .headerText {
+    padding: 8% 0;
+  }
+
   .main {
     height: 84em;
   }
@@ -721,6 +746,21 @@ a:hover {
 
 @media (min-width: 1440px) {
 
+  body {
+    width: 100%;
+    /*margin: 0 auto;*/
+    padding-top: 30em;
+  }
+
+  .header {
+    /*width: 75.5%;*/
+    height: 30em;
+  }
+
+  .headerText {
+    padding: 9% 0;
+  }
+
   .main > li {
     min-height: 460px;
     max-height: 460px;
@@ -728,6 +768,8 @@ a:hover {
 
   .main {
     height: 88em;
+    /*width: 80%;
+    margin: 0 auto;*/
   }
 
   .bring-footer-up-1,
@@ -742,6 +784,10 @@ a:hover {
 
   .image1 {
     height:352px;
+  }
+
+  .image2 {
+    height: 27em;
   }
 
   .image3 {

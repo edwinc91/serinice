@@ -1,7 +1,7 @@
 var nav = $('.main-nav');
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 278) {
+  if ($(this).scrollTop() > ($('.header').height())) {
     nav.addClass('main-nav-scrolled');
     $('a.circle').addClass('circle-scrolled');
     $('.navbar-brand').addClass('navbar-brand-scrolled');
